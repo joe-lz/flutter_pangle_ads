@@ -24,6 +24,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    // 添加 namespace，替换为实际的包名
+    namespace 'com.zero.flutter_pangle_ads'
+
     compileSdk 31
     defaultConfig {
         minSdkVersion 19
